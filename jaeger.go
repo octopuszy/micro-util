@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+
 // NewTrancer 创建链路追踪实例
 func NewTrancer(serviceName, addr string)  (opentracing.Tracer, io.Closer, error){
 	config := &config2.Configuration{
